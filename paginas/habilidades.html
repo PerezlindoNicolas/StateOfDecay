@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Habilidades</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../imagenes/logos habilidades/logo.png"
+                        alt="" height="50"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/paginas/rasgos.html">Rasgos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Habilidades</h1>
+            <p>
+                En State of Decay 2, las habilidades son una parte fundamental de la supervivencia. Cada sobreviviente
+                comienza con un conjunto de atributos básicos que determinan cómo se desenvuelve en combate, exploración
+                y
+                apoyo a la comunidad. Con el tiempo, estas habilidades se pueden entrenar y mejorar, lo que transforma a
+                un
+                sobreviviente común en un miembro valioso y especializado dentro del grupo.
+
+                El sistema de progresión funciona de manera práctica y natural: las habilidades suben de nivel
+                simplemente
+                al usarlas. Cuanto más practiques una acción, más rápido progresará esa habilidad, y cada nivel ganado
+                proporciona pequeñas ventajas acumulativas que pueden marcar la diferencia en situaciones de vida o
+                muerte.
+            </p>
+
+
+            <p>Las habilidades base son:</p>
+
+            <div class="link">
+                <a href="#cardio">Cardio</a>
+                <a href="#sentidocomun">Sentido común</a>
+                <a href="#lucha">Lucha</a>
+                <a href="#disparo">Disparo</a>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div>
+                    <p>
+                        Al alcanzar el nivel máximo de una habilidad, el jugador tiene la oportunidad de especializarla,
+                        eligiendo
+                        entre ramas diferentes que ofrecen estilos de juego únicos. Esta decisión define el rol del
+                        sobreviviente dentro de la comunidad: puede convertirse en un combatiente letal, un explorador
+                        silencioso o
+                        un apoyo esencial para la base, dependiendo del camino que se tome.
+                    </p>
+                </div>
+                <div>
+                    <p>Además de las habilidades principales que todo personaje posee, muchos sobrevivientes traen
+                        consigo
+                        habilidades únicas o secundarias, como:</p>
+
+
+                    <section class="habilidadesContenedor">
+                        <!--Artesania-->
+                        <div class="habilidad">
+                            <h5>Artesania</h5>
+                            <div class="imgdes">
+                                <img class="img" src="../imagenes/logos habilidades/artesania.png" alt="Imagen 1">
+                                <div class="descripcion">Sirve para la construcción de edificios Materiales, Piezas y
+                                    armas
+                                </div>
+                            </div>
+
+                            <div class="lineasContenedor">
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Construcción</h5>
+                                    <div class="lineaTexto">
+                                        <p>Crea modificaciones de edificios</p>
+                                        <p>Accede al barracón nivel 2</p>
+                                        <p>Permite fabricar materiales a base de piezas</p>
+                                        <p>Llevarla a maximo da +1 de mano de obra</p>
+                                    </div>
+                                </div>
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Metalisteria</h5>
+                                    <div class="lineaTexto">
+                                        <p>Esta fabrica armas especiales</p>
+                                        <p>Usa la forja para convertir materiales en piezas.</p>
+                                        <p>llevarla al maximo da un 15% de durabilidad de armas cuerpo a cuerpo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Cocina-->
+                        <div class="habilidad">
+                            <h5>Cocina</h5>
+                            <div class="imgdes">
+                                <img class="img" src="../imagenes/logos habilidades/cocina.png" alt="Imagen 2">
+                                <div class="descripcion">Desbloquea la cocina nivel 2 Permite preparar banquetes</div>
+                            </div>
+
+                            <div class="lineasContenedor">
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Nutrición</h5>
+                                    <div class="lineaTexto">
+                                        <p>Al preparar un banquete te da un bono de resistencia</p>
+                                        <p>Permite fabricar bocadillos nutritivos</p>
+                                        <p>Llevarla al maximo da un +10 de salud y resitencia al sobreviviente que lleve
+                                            esta habilidad
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Alta Cocina</h5>
+                                    <div class="lineaTexto">
+                                        <p>Da un bono de +10 de influencia en misiones con el sobrevivente con esta
+                                            habilidad</p>
+                                        <p>Aumenta la producción de alimentos en la cocina.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Computadoras-->
+                        <div class="habilidad">
+                            <h5>Informatica</h5>
+                            <div class="imgdes">
+                                <img class="img" src="../imagenes/logos habilidades/computadoras.png" alt="Imagen 3">
+                                <div class="descripcion">Permite mejorar el centro de mando al maximo Aumentando la
+                                    cantidad de puestos avanzados.
+                                </div>
+                            </div>
+
+                            <div class="lineasContenedor">
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Electronica</h5>
+                                    <div class="lineaTexto">
+                                        <p>Se pueden fabricar C4</p>
+                                        <p>Fabrica paneles solares</p>
+                                        <p>Llevarla al maximo aumenta las piezas al reciclar armas</p>
+                                    </div>
+                                </div>
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Programacion</h5>
+                                    <div class="lineaTexto">
+                                        <p>Permite usar drones en el centro de mando</p>
+                                        <p>Llevarla al maximo reduce el tiempo de espera para usar la radio</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Jardineria-->
+                        <div class="habilidad">
+                            <h5>Jardineria</h5>
+                            <div class="imgdes">
+                                <img class="img" src="../imagenes/logos habilidades/jardineria.png" alt="Imagen 4">
+                                <div class="descripcion">Produce comida y medicina</div>
+                            </div>
+                            <div class="lineasContenedor">
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Agricultura</h5>
+                                    <div class="lineaTexto">
+                                        <p>Permite aumentar al maximo la produccion de comida</p>
+                                        <p>Llevarla al maximo da +1 de comida al dia</p>
+                                    </div>
+                                </div>
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Herborista</h5>
+                                    <div class="lineaTexto">
+                                        <p>Permite aumentar al maximo la produccion de medicina</p>
+                                        <p>Llevarla al maximo da un +1 de medicina por dia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Mecanica-->
+                        <div class="habilidad">
+                            <h5>Mecanica</h5>
+                            <div class="imgdes">
+                                <img class="img" src="../imagenes/logos habilidades/mecanica.png" alt="Imagen 5">
+                                <div class="descripcion">Permite reparar los vehiculos y armas Mejora el taller al
+                                    maximo
+                                </div>
+                            </div>
+
+                            <div class="lineasContenedor">
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Mecanica de autos</h5>
+                                    <div class="lineaTexto">
+                                        <p>Fabrica kits de reparacion y kits de reparacion avanzados a menos costo.</p>
+                                        <p>Fabrica mejora de autos</p>
+                                        <p>Levarla al maximo aumenta la eficiencia del combustible y reduce el ruido que
+                                            hace el auto
+                                            cuando lo lleva el sobreviviente con esta habilidad </p>
+                                    </div>
+                                </div>
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Ingenieria</h5>
+                                    <div class="lineaTexto">
+                                        <p>Fabrica accesorios de boca para armas de fuego</p>
+                                        <p>Llevarla al maximo reduce el costo de reparación de las armas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Medicina-->
+                        <div class="habilidad">
+                            <h5>Medicina</h5>
+                            <div class="imgdes">
+                                <img class="img" src="../imagenes/logos habilidades/medicina.png" alt="Imagen 6">
+                                <div class="descripcion">Cura enfermedades y lesiones</div>
+                            </div>
+
+                            <div class="lineasContenedor">
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Cirugia</h5>
+                                    <div class="lineaTexto">
+                                        <p>Da un +20 de salud al sobreviviente con esta habilidad</p>
+                                        <p>Permite aumentar la recuperacion de lesiones de los sobreviventes</p>
+                                    </div>
+                                </div>
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Patologia</h5>
+                                    <div class="lineaTexto">
+                                        <p>Consigue mas muestras de la plaga</p>
+                                        <p>Reduce el costo de produccion de la medicina de la plaga</p>
+                                        <p>Desbloque la opcion de "Recuperacion de la infeccion"</p>
+                                        <p>Llevarla al maximo da un 100% de resistencia a la plaga al sobreviviente con
+                                            esta habilidad
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Quimica-->
+                        <div class="habilidad">
+                            <h5>Quimica</h5>
+                            <div class="imgdes">
+                                <img class="img" src="../imagenes/logos habilidades/quimica.png" alt="">
+                                <div class="descripcion">Reduce los recursos para la produccion de municiones y
+                                    medicamentos
+                                </div>
+                            </div>
+
+                            <div class="lineasContenedor">
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Municiones</h5>
+                                    <div class="lineaTexto">
+                                        <p>Da acceso a todos los explosivos</p>
+                                        <p>Reduce el costo de produccion de municiones</p>
+                                        <p>Aumenta la produccion de algunos explosivos</p>
+                                        <p>Levarla al maximo aumenta la capacidad de almacenamiento de municiones</p>
+                                    </div>
+                                </div>
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Farmacologia</h5>
+                                    <div class="lineaTexto">
+                                        <p>Da acceso a los medicamentos fuertes</p>
+                                        <p>Reduce el costo de fabricacion de medicamentos</p>
+                                        <p>Aumenta la cantidad de medicamentos producidos</p>
+                                        <p>Levarla al maximo aumenta la capacidad de almacenamiento de medicamentos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Servicios-->
+                        <div class="habilidad">
+                            <h5>Servicio</h5>
+                            <div class="imgdes"><img class="img" src="../imagenes/logos habilidades/servicios.png"
+                                    alt="">
+                                <Div class="descripcion">Permite desarrolar el uso de agua y energia en la base Da
+                                    acceso al
+                                    sistema
+                                    hidroponico y aumenta la
+                                    duracion del generador y el recolector de agua</Div>
+                            </div>
+
+                            <div class="lineasContenedor">
+                                <div class="lineaCaja">
+                                    <h5 class="lineaTitulo">Plomeria</h5>
+                                    <div class="lineaTexto">
+                                        <p>Da acceso a las letrinas nivel 2</p>
+                                        <p>Reduce la frecuencia para limpiar los baños</p>
+                                        <p>Llevar al maximo da un +20 de resistencia la sobreviviente con esta habilidad
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="lineaTexto">
+                                    <h5 class="lineaTitulo">Electrico</h5>
+                                    <div class="lineaTexto">
+                                        <p>Accede al almacen refrigerado y paneles solares</p>
+                                        <p>Levarla al maximo da 20 piezas por dia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <p>
+                        Estas habilidades son cruciales para expandir y mantener la base, ya que desbloquean la
+                        construcción
+                        de
+                        instalaciones, la producción de recursos y la posibilidad de mejorar la calidad de vida del
+                        grupo.
+                        En
+                        otras
+                        palabras, no todos los personajes destacan en combate, pero incluso el más débil físicamente
+                        puede
+                        ser
+                        indispensable gracias a sus conocimientos.
+                    </p>
+                </div>
+            </div>
+
+
+            <div>
+                <h2>Los libros de habilidades</h2>
+                <p>
+                    Además de entrenar habilidades de manera práctica, existen los libros de habilidades. Estos objetos
+                    especiales permiten a un sobreviviente aprender una habilidad que no poseía o mejorar una que ya
+                    tiene.
+                    Son
+                    muy valiosos porque ofrecen la posibilidad de personalizar a cada miembro de la comunidad según las
+                    necesidades de la base.
+
+                    Los libros pueden encontrarse en librerías, colegios, casas o incluso adquirirse a través de
+                    comerciantes.
+                    Existen tanto manuales generales, como el Libro de Textos, que reinicia una habilidad para poder
+                    elegir
+                    una
+                    especialización distinta.
+
+                    Gracias a ellos, un sobreviviente sin una habilidad secundaria puede convertirse en el médico del
+                    grupo,
+                    el
+                    mecánico que repare vehículos o el cocinero que mantenga la moral alta. Esta mecánica da
+                    flexibilidad y
+                    permite cubrir huecos en la comunidad sin depender únicamente de la suerte al reclutar nuevos
+                    personajes.
+
+                    Invertir en los libros correctos es tan importante como entrenar en el campo, ya que son la clave
+                    para
+                    adaptar a la comunidad a los desafíos del apocalipsis zombi.
+
+                    Este sistema convierte a cada sobreviviente en alguien distinto, con fortalezas y debilidades que
+                    influyen
+                    en la estrategia general. Subir de nivel, elegir las especializaciones adecuadas y equilibrar las
+                    habilidades de toda la comunidad es lo que marca la diferencia entre el éxito y la caída en un mundo
+                    plagado
+                    de zombis.
+
+
+
+                <div class="bhab">
+                    <h3>Libros de habilidades especiales</h3>
+                    <img class="imghab" src="../imagenes/logos habilidades/especiales.png" alt="">
+                </div>
+                <p>
+                    Tambien existen libros con habilidades especiales que son dificiles de encontrar por el mapa o bien
+                    aparecen para comerciar con otras comunidades.
+                </p>
+                <p>Estas son:
+
+                <ul class="ulhab">
+                    <li>Guia secreta de consumidor</li>
+                    <p>+50% de volocidad de busqueda</p>
+                    <p>+25 piezas por dia</p>
+
+                    <li>Conducción</li>
+                    <p>Aumenta la eficiencia , resistencia y sigilo del vehiculo.</p>
+
+                    <li>Liquenologia</li>
+                    <p>Conocimientos sobre jardineria</p>
+                    <p>Conocimiento sobre herboristeria</p>
+                    <p>+2 de medicamentos por dia</p>
+
+                    <li>Psicologia del sueño</li>
+                    <p>Da +4 de moral a la comunidad</p>
+                    <p>+2 camas</p>
+
+                    <li>Manual de insonorización</li>
+                    <p>Da -4 de ruido en la comunidad</p>
+
+                    <li>Pesca</li>
+                    <p>+2 de comida por dia</p>
+
+                    <li>Costura</li>
+                    <p>Aumenta en +1 el tamaño de articulos que pueden llevar los sobrevivientes de la comunidad.</p>
+                    <p>Da +10 de salud a la comunidad</p>
+                    <p>Conocimiento sobre artesania</p>
+
+                    <li>Higiene</li>
+                    <p>+50 de resistencia a la plaga para la comunidad</p>
+                    <p>+10 de salud en la comunidad</p>
+
+                    <li>Reciclaje</li>
+                    <p>+2 de materiales por dia</p>
+                    <p>+25 de piezas por dia</p>
+
+                    <li>Certificación en scrum</li>
+                    <p>+50% en velocidad de construccion</p>
+                    <p>+50% en velocidad de instalacion</p>
+                    <p>+2 de trabajo</p>
+
+
+                </ul>
+                </p>
+                </p>
+            </div>
+        </section>
+
+
+        <h2>Habilidades Base</h2>
+        <section>
+            <div class="bhab">
+                <h3 id="cardio">Cardio</h3>
+                <img class="imghab" src="../imagenes/logos habilidades/cardio.png" alt="">
+            </div>
+
+            <p>La habilidad de Cardio representa la resistencia física de un sobreviviente. Cuanto más alto sea este
+                atributo, más tiempo podrá correr, esquivar ataques y realizar acciones sin agotarse. Es una de las
+                habilidades más importantes, ya que la fatiga en medio de un combate o durante una huida puede
+                significar la muerte. El Cardio mejora simplemente al correr, esquivar o trepar obstáculos. Cuanto más
+                tiempo pase el personaje en movimiento, más rápido subirá esta habilidad. Un sobreviviente con buen
+                Cardio puede explorar el mapa con mayor seguridad, escapar de hordas de zombis y soportar largas
+                travesías sin necesidad de descansar.</p>
+
+            <table class="thab">
+                <tr>
+                    <th>Nivel</th>
+                    <th>Beneficio</th>
+                    <th>#</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Maxima Estamina</td>
+                    <td>+3</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Maxima Estamina</td>
+                    <td>+6</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Maxima Estamina</td>
+                    <td>+9</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Maxima Estamina</td>
+                    <td>+12</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Maxima Estamina</td>
+                    <td>+15</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Maxima Estamina</td>
+                    <td>+18</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Maxima Estamina</td>
+                    <td>+21</td>
+                </tr>
+            </table>
+
+            <div>
+                <p>Llegar al nivel 7 permite elegir una especialización:</p>
+
+                <ul>
+                    <div>
+                        <li>Maratón</li>
+                        <p>Esta habilidad permite correr distancias más largas sin fatigarse, aumentando la resistencia
+                            del
+                            sobreviviente. llevada al maximo permite correr sin gastar resistencia con una carga
+                            liviana.
+                        </p>
+                    </div>
+                    <div>
+                        <li>Mochilero</li>
+                        <p>Es la especialización que menos bonos ofrece, pero es la que más resistencia da. aumenta la
+                            carga
+                            maxima y da un espacio extra en el inventario.</p>
+                    </div>
+                    <div>
+                        <li>Acrobacias</li>
+                        <p>Esta habilidad es para sobrevivientes con poca salud , ya que les permite realizar maniobras
+                            evasivas con mayor facilidad.</p>
+                    </div>
+                    <div>
+                        <li>Dinasmismo</li>
+                        <p>Esta es la especialización con mas bonos para el sobreviviente, es ideal para llevar armas
+                            cuerpo
+                            a cuerpo pesadas.</p>
+                    </div>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="bhab">
+                <h3 id="sentidocomun">Sentido Común</h3>
+                <img class="imghab" src="../imagenes/logos habilidades/sentidocomun.png" alt="">
+            </div>
+
+            <p>El Sentido común mejora el sigilo, la velocidad de saqueo. Los supervivientes con mayor sentido común
+                buscan más rápido, se mueven más silenciosamente y evitan a los zombis más fácilmente.</p>
+
+            <table class="thab">
+                <tr>
+                    <th>Nivel</th>
+                    <th>Beneficio</th>
+                    <th>#</th>
+                <tr>
+                    <td>1</td>
+                    <td>Velocidad de busqueda</td>
+                    <td>+5%</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Velocidad de busqueda</td>
+                    <td>+10%</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Velocidad de busqueda</td>
+                    <td>+15%</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Velocidad de busqueda</td>
+                    <td>+20%</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Velocidad de busqueda</td>
+                    <td>+25%</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Velocidad de busqueda</td>
+                    <td>+30%</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Velocidad de busqueda</td>
+                    <td>+35%</td>
+                </tr>
+                </tr>
+            </table>
+
+            <div>
+                <p>Llegar al nivel 7 permite elegir una especialización:</p>
+
+                <ul>
+                    <div>
+                        <li>Disciplina</li>
+                        <p>Esta habilidad es buena porque aumenta la carga liviana, la durabilidad de las armas
+                            cuerpo a cuerpo y es la unica de sentido común que da resistiencia. </p>
+                    </div>
+                    <div>
+                        <li>Iniciativa</li>
+                        <p>Esta habilidad es recomendable para los sobrevivientes de saqueo
+                            ya que un espacio extra en el inventario permite llevar 3 consumibles más y reduce su peso
+                            además de aumentar la recuperacion de flechas.
+                        </p>
+                    </div>
+                    <div>
+                        <li>Exploración</li>
+                        <p>Esta aumenta el rango de deteccion de enemigos y de contenedores aumenta la durabilidad de
+                            las armas de fuego y
+                            al maximo te permite detectar todos los contenedores del edificio una ves que entras.</p>
+                    </div>
+                    <div>
+                        <li>Sigilo</li>
+                        <p>Esta Habilidad reduce el rango de visibilidad de los enemigos , reduci la posibilidad de que
+                            al buscar rapido un contenedor genere ruido ,
+                            da el movimiento de ejecución silenciosa , permite correr agachado y abrir puertas cerrados
+                            estando agachado. </p>
+                    </div>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div class="bhab">
+                <h3 id="lucha">Lucha</h3>
+                <img class="imghab" src="../imagenes/logos habilidades/lucha.png" alt="">
+            </div>
+
+            <p>La lucha define la capadidad de un personaje en un combate cuerpo a cuerpo.
+                se incrementa pelenado con zombis usando armas cuerpo a cuerpo o armas de respaldo (las armas que quedan
+                cuando no hay cuerpo a cuerpo equipada).
+            </p>
+
+            <table class="thab">
+                <tr>
+                    <th>Nivel</th>
+                    <th>Beneficio</th>
+                    <th>#</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Aumento de Salud</td>
+                    <td>+4</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Aumento de Salud</td>
+                    <td>+8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Aumento de Salud</td>
+                    <td>+12</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Aumento de Salud</td>
+                    <td>+16</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Aumento de Salud</td>
+                    <td>+20</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Aumento de Salud</td>
+                    <td>+24</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Aumento de Salud</td>
+                    <td>+28</td>
+                </tr>
+            </table>
+
+            <div>
+                <p>Llegar al nivel 7 permite elegir una especialización:</p>
+
+                <ul>
+                    <div>
+                        <li>Ataque</li>
+                        <p>Esta es una habilidad recomendada para armas cuerpo a cuerpo contundentes.
+                            llevada al maximo aumenta la probabilidad de derribo y da la habilidad "Gran Paliza"
+                        </p>
+                    </div>
+                </ul>
+                <ul>
+                    <div>
+                        <li>Combate Cercano</li>
+                        <p>Esta habilidad esta enfocada en las armas de respaldo
+                            Aumenta la resistencia en combate cuerpo a cuerpo, da la habilidad de "Empujón"
+                            llevada la maximo permite ejecutar zombis de frente (siempre que no se tenga un arma cuerpo
+                            a cuerpo equipada).
+                        </p>
+                    </div>
+                </ul>
+                <ul>
+                    <div>
+                        <li>Manejo de Espada</li>
+                        <p>Es una de las más populares , ya que aumenta la letalidad de armas blancas , permite ejecutar
+                            zombis de frente (con un arma de hoja equipada)
+                            y da la habilidad de "Barrida" </p>
+                    </div>
+                </ul>
+                <ul>
+                    <div>
+                        <li>Resistencia</li>
+                        <p>Es la habilidad de lucha que menos bonos da , pero son muy buenos. Esta es la que más salud
+                            da (+84) a diferencia de las demás (+28)
+                            reduce la severidad de lesiones y da la habilidad "Paliza". Esta habilidad puede usarse con
+                            cualquier arma, a diferencia de las demas que necesitan de un arma en especifico.
+                        </p>
+                    </div>
+                </ul>
+        </section>
+
+        <section>
+            <div class="bhab">
+                <h3 id="disparo">Disparo</h3>
+                <img class="imghab" src="../imagenes/logos habilidades/tiro.png" alt="">
+            </div>
+
+            <p>La habilidad de Disparos representa la destreza de un superviviente con armas de fuego. Subirla es
+                esencial para sobrevivir en situaciones donde el combate cuerpo a cuerpo no es suficiente.</p>
+
+            <table class="thab">
+                <tr>
+                    <th>Nivel</th>
+                    <th>Mejoras</th>
+                    <th>#</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Balanceo , Retroceso y V. de Recarga</td>
+                    <td>(-3%) (-3%) (+6%)</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Balanceo , Retroceso y V. de Recarga</td>
+                    <td>(-6%) (-6%) (+12%)</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Balanceo , Retroceso y V. de Recarga</td>
+                    <td>(-9%) (-9%) (+18%)</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Balanceo , Retroceso y V. de Recarga</td>
+                    <td>(-12%) (-12%) (+25%)</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Balanceo , Retroceso y V. de Recarga</td>
+                    <td>(-15%) (-15%) (+30%)</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Balanceo , Retroceso y V. de Recarga</td>
+                    <td>(-18%) (-18%) (+40%)
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Balanceo , Retroceso y V. de Recarga</td>
+                    <td>(-25%) (-25%) (+50%)</td>
+                </tr>
+            </table>
+
+            <div>
+                <p>Llegar al nivel 7 permite elegir una especialización:</p>
+
+                <ul>
+                    <div>
+                        <li>Asalto</li>
+                        <p>Esta aumenta la capacidad de munición del inventario ,reduce el retroceso , aumenta la
+                            velocidad de recarga , aumenta el derribo de las armas de fuego y reduce el balanceo,
+                            y da la habilidad de "Patada" al apuntar</p>
+                    </div>
+                    <div>
+                        <li>Francotirador</li>
+                        <p>Esta reduce el balanceo , aumenta el desmembramiento con armas de fuego , reduce el retroceso
+                            , aumenta la velocidad de carga y permite que todas las balas atraviensen a los enemigos
+                        </p>
+                    </div>
+                    <div>
+                        <li>Manipulacion de Armas</li>
+                        <p>Esta ademas de dar las bonificaciones de balanceo, retroceso y velocidad de cargar que dan
+                            las demás,
+                            esta permite reparar un arma destruida gratis y al instante</p>
+                    </div>
+                    <div>
+                        <li>Pistolero</li>
+                        <p>Los bonos que da esta habilidad aumenta más la velocidad de recargar (200%), da el mismo
+                            balanceo y retroceso que las demás,
+                            llevada al maximo da la habilidad de "Punteria Perfecta" (permite apuntar directamente a la
+                            cabeza a los enemigos)</p>
+                    </div>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Fanpage de State of Decay 2 | Proyecto no oficial</p>
+            <div class="footer-links">
+                <a href="https://www.stateofdecay.com/" target="_blank">Página Oficial</a>
+                <a href="https://discord.gg/stateofdecay" target="_blank">Comunidad</a>
+                <a href="#top">Volver arriba</a>
+            </div>
+            <p class="footer-quote">"En este mundo, la comunidad lo es todo."</p>
+        </div>
+    </footer>
+
+    <!--Scrip boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
