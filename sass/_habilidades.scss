@@ -1,0 +1,65 @@
+@use 'variables' as*;
+@use 'mixins' as*;
+
+.habilidadesContenedor {
+  @include flex-center(column, center, center);
+  gap: 100px;
+}
+
+.habilidad {
+  width: 262px;
+  text-align: start;
+  @include border-radius(18px);
+  @include box-shadow($shadow);
+  background-color: $primary-color;
+  padding: 25px;
+}
+
+.img {
+  width: 80px;
+  height: 70px;
+  @include border-radius(8px);
+  margin: 0 auto;
+}
+
+.descripcion {
+  margin-top: 15px;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+}
+
+.lineasContenedor {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.lineaCaja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #1e3a8a;
+    margin-bottom: 4px;
+  }
+}
+
+.lineaTitulo {
+  font-size: 15px;
+  font-weight: 600;
+  color: $primary-color;
+}
+
+.lineaTexto {
+  font-size: 14px;
+  color: $dark-bg;
+  max-width: 100px;
+}

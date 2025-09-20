@@ -1,0 +1,44 @@
+@use 'variables' as*;
+
+.accordionPositivo {
+  .accordion-button {
+    background-color: $dark-bg;
+    color: $success-color;
+    border: 1px solid lighten($success-color, 20%);
+    
+    &.collapsed {
+      background-color: $success-color;
+      color: white;
+    }
+  }
+
+  .accordion-body {
+    background-color: $dark-bg;
+    border-left: 3px solid $success-color;
+  }
+}
+
+.accordionNegativo {
+  .accordion-button {
+    background-color: $dark-bg;
+    color: $danger-color;
+    border: 1px solid lighten($danger-color, 20%);
+    
+    &.collapsed {
+      background-color: $danger-color;
+      color: white;
+    }
+  }
+
+  .accordion-body {
+    background-color: $dark-bg;
+    border-left: 3px solid $danger-color;
+  }
+}
+
+.acordeones-contenedor {
+  display: grid;
+  grid-template-columns: 2fr;
+  gap: 2rem;
+  margin: 2rem;
+}

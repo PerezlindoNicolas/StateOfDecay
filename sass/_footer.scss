@@ -1,0 +1,37 @@
+@use 'variables' as*;
+@use 'mixins' as*;
+
+footer {
+  background-color: $dark-bg;
+  color: $secondary-color;
+  margin-top: 1px;
+  text-align: center;
+
+  .footer-container {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .footer-links {
+    margin: 10px 0;
+
+    a {
+      color: $accent-color;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+      @include transition(color);
+
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  }
+
+  .footer-quote {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #aaa;
+  }
+}
